@@ -5,7 +5,9 @@
   "scripts": {
     "dev": "keystone-next",
     "seed-data": "keystone-next --seed-data",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "keystone-next start",
+    "build": "keystone-next build"
   },
   "author": "plantdink",
   "license": "ISC",
