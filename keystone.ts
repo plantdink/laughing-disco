@@ -26,6 +26,7 @@ const databaseURL =
   process.env.DATABASE_URL || "mongodb://localhost/div2-item-compare";
 
 const sessionConfig = {
+  secure: false, // if SSL not enabled
   maxAge: 60 * 60 * 24 * 180, // 180 day cookie life
   secret: process.env.COOKIE_SECRET,
 };
